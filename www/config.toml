@@ -2,3 +2,31 @@ baseURL = "http://mb1.xyz/"
 languageCode = "en-us"
 title = "MB1 . XYZ"
 theme = "hugo-theme-techlog-simple"
+
+defaultContentLanguage = "en"
+hasCJKLanguage = true
+enableEmoji = true
+pygmentsCodeFences = true
+pygmentsStyle = "friendly"
+enableGitInfo = false
+enableRobotsTXT = true
+# googleAnalytics = "UA-00000000-1"
+
+[params]
+description = "Infrequent Notes"
+
+[params.sns]
+#github = "mazgi"
+#twitter = "mazgi"
+#instagram = "mazgi"
+# facebook = ""
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+author = "authors"
+
+[languages]
+[languages.en]
+weight = 1
+languageName = "English"
